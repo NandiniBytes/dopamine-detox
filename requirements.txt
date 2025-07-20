@@ -1,0 +1,14 @@
+# requirements.txt
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+sqlalchemy
+sqlmodel
+asyncpg
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+groq
+faiss-cpu  # For vector search (use faiss-gpu if you have a compatible GPU)
+sentence-transformers # For creating text embeddings

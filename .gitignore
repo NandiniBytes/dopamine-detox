@@ -1,0 +1,57 @@
+# --- Virtual Environment ---
+# Never commit the virtual environment folder
+venv/
+/venv/
+.venv/
+env/
+.env/
+
+# --- Python Cache ---
+# Ignore Python's auto-generated cache and bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Sensitive Information ---
+# CRITICAL: Never commit your environment variables file
+.env
+
+# --- Generated Files ---
+# Ignore the generated FAISS index file
+faiss_index.bin
+
+# Ignore log files
+*.log
+
+# --- IDE / Editor Configuration ---
+# Visual Studio Code
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+
+# --- Operating System Files ---
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Build & Distribution ---
+/dist/
+/build/
+*.egg-info/
+*.egg
+
+# --- Testing ---
+.pytest_cache/
+.coverage
+htmlcov/
